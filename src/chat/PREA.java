@@ -1,4 +1,4 @@
-package com.gplenty.p2pChat;
+package chat;
 
 public class PREA 
 {

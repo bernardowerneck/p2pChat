@@ -1,4 +1,4 @@
-package com.gplenty.p2pChat;
+package chat;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,17 +1,15 @@
-package com.gplenty.p2pChat;
+package chat;
 
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class P2pChaApplication {
+public class Application {
 
-	public static void main(String[] args) throws IOException {
-		
+	public static void main(String[] args) throws IOException 
+	{
 		ExecutorService pool = Executors.newFixedThreadPool(10);
 		Scanner scanner = new Scanner(System.in);
 		User user;
